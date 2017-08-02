@@ -240,7 +240,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
     })
 ```
 介紹：  
-這邊輸入了rc/style/scss/下全部 scss 檔案，然後使用 compass 套件做編譯，再使用 autoprefixer 加前綴，最後輸出到src/style/css/下.  
+這邊輸入了src/style/scss/下全部 scss 檔案，然後使用 compass 套件做編譯，再使用 autoprefixer 加前綴，最後輸出到src/style/css/下.  
 
 <br />
 
@@ -250,8 +250,8 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
         return depLinker.linkDependenciesTo('src/assets/plugins');
     });
 ```
-介紹：  
-這邊輸入了src/style/scss/下全部 scss 檔案，然後使用 compass 套件做編譯，再使用autoprefixer 加前綴，最後輸出到src/style/css/下.  
+介紹：  
+這邊會去抓package.json裡的dependencies，然後去node_modules尋找，最後再輸出到src/assets/plugins.  
 
 <br />
 
