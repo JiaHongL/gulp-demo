@@ -54,7 +54,7 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
 ##### A：這邊有三種方式介紹
 1.自己手動從 node_modules 裡面搬出來，放在專案的某個資料夾.  
 2.使用工具把 dependencies 紀錄的套件從 node_modules 搬出來，放在專案某個資料夾.如 demo 中會用到的 deLinker 這個工具套件.  
-3.使用某cli 如 Angular Cli 或 使用 Webpack ， 只要做些配置它就會自己去 node_modules 尋找套件然後幫引入.  
+3.使用某cli 如 Angular Cli 或 使用 Webpack ， 只要做些配置它就會自己去 node_modules 尋找套件，然後幫引入.  
 > node_modules只是下載放置套件的地方，通常上線時會過濾，並不會一起上傳，所以才會有以上三種方式做處理，如有使用git的話，通常都會新增一個.gitinore檔，來過濾上傳的檔案.    
 - [各式.gitinore create 參考](https://www.gitignore.io/)  
 
