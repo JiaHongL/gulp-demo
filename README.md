@@ -193,15 +193,15 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
     const babel = require('gulp-babel');
 ```
 介紹：  
-    gulp：用來寫gulp的處理stream.  
-    gulp-webserver：建立一個webserver執行專案.  
-    gulp-concat：合併檔案.  
-    gulp-uglify：壓縮醜化js檔案.  
-    dep-linker：會抓package.json的dependencies，到node_modules尋找，然後複製到某個資料夾.  
-    gulp-compass：sass 編譯成 css.  
-    gulp-autoprefixer：對css檔案裡的屬性，自動加前綴.
-    fs-extra：可以做一些檔案的處理.  
-    gulp-babel：es6 轉譯成 es6，需要另外安裝 babel-preset-es2015，請參考package.json.  
+- gulp：用來寫gulp的處理stream.  
+- gulp-webserver：建立一個webserver執行專案.  
+- gulp-concat：合併檔案.  
+- gulp-uglify：壓縮醜化js檔案.  
+- dep-linker：會抓package.json的dependencies，到node_modules尋找，然後複製到某個資料夾.  
+- gulp-compass：sass 編譯成 css.  
+- gulp-autoprefixer：對css檔案裡的屬性，自動加前綴.
+- fs-extra：可以做一些檔案的處理.  
+- gulp-babel：es6 轉譯成 es6，需要另外安裝 babel-preset-es2015，請參考package.json.  
 
 <br />
 
