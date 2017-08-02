@@ -245,7 +245,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
     });
 ```
 介紹：    
-這個watch task分別去做了四個watch的動作，只要檔案有變動就會執行對應的task.  
+這個watch task分別去做了四個watch的動作，只要檔案有變動就會執行對應的task.  
 
 ### VII. copyfile task
 ```sh
@@ -274,7 +274,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
     gulp.task('product', ['copyfile']);
 ```
 介紹： 
-當專案開發完成時，要做輸出的動作，雖然這邊只做搬移的動作，但實際上可能會在做些其他動作，如 api切換等.  
+當專案開發完成時，要做輸出的動作，雖然這邊只做搬移的動作，但實際上可能會在做些其他動作，如 api切換等.  
 
 
 ### IX. gulp default
