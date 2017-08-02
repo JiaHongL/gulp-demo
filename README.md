@@ -46,8 +46,10 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
 
 <br />
 
-#### IV.如果你的肝和我一樣還很新鮮的話，可能會有這些疑問:  
+#### IV.如果你的肝和我一樣還很新鮮的話，可能會有這些疑問:
+
 <br />
+
 ##### Q：安裝完套件後怎麼引入到html呢？  
 ##### A：這邊有三種方式介紹
 1.自己手動從 node_modules 裡面搬出來，放在專案的某個資料夾.  
@@ -324,4 +326,5 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
 
 <br />
 <br />
->> 以上這個gulpfile.js設定僅供參考，因為本身現在比較常用Angular cli，擔心會有遺漏的地方，如有錯誤歡迎在[issues](https://github.com/JiaHongL/gulp-demo/issues) 提出建言，感謝.
+
+> 以上這個gulpfile.js設定僅供參考，因為本身現在比較常用Angular cli，擔心會有遺漏的地方，如有錯誤歡迎在[issues](https://github.com/JiaHongL/gulp-demo/issues) 提出建言，感謝.
