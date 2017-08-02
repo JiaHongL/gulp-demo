@@ -37,7 +37,7 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
 ```sh
   npm install gulp-uglify --save-dev 
 ```
->gulp-uglify 是一個壓縮JS的工具套件，像這類的套件只會用在開發環境，通常歸類在devDependencies.    
+>gulp-uglify 是一個壓縮醜化JS的工具套件，像這類的套件只會用在開發環境，通常歸類在devDependencies.    
 
 <br />
 
