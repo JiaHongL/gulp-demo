@@ -330,4 +330,4 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
 <br />
 <br />
 
-> 以上gulp-demo的gulpfile.js設定僅供參考，因為現在本身比較常用 Angular cli，擔心會有遺漏的地方，如有錯誤歡迎在[issues](https://github.com/JiaHongL/gulp-demo/issues) 提出建言，感謝.
+> 以上gulp-demo的gulpfile.js設定僅供參考，因為現在本身比較常用 Angular cli，擔心會有遺漏的地方，如有錯誤歡迎在[issues](https://github.com/JiaHongL/gulp-demo/issues) 提出，感謝.
