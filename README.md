@@ -42,7 +42,7 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
 <br />
 
 #### III.Demo的Package.json介紹:  
-這邊可以看到如果有使用加--save指令的話，安裝套件的版本和分類就會被記錄在 Package.json 裡，這邊我們看到gulp也被記錄在 devDependencies ，而這個 gulp 是用 --save-dev 安裝的，因為我們在撰寫gulp的task時也會用到gulp,所以也必須在專案下載安裝一次.
+這邊可以看到如果有使用加--save指令的話，安裝套件的版本和分類就會被記錄在 Package.json 裡，這邊我們看到gulp也被記錄在 devDependencies ，而這個 gulp 是用 --save-dev 安裝的，因為我們在撰寫gulp的task時也會用到gulp，所以也必須在專案下載安裝一次.
 
 ![alt text](https://1.bp.blogspot.com/-JEUnmbqTGAg/WYE0PfhoaSI/AAAAAAAAAxg/YGjA7M36vRsS_ZKC4g5lidpR88aSnM_TACLcBGAs/s320/%25E8%259E%25A2%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-08-02%2B%25E4%25B8%258A%25E5%258D%258810.04.42.png "選擇性的標題")
 
