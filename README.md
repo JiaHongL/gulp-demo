@@ -22,16 +22,16 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
   npm install gulp -g 
 ```
 
-3.專案套件安裝：安裝專案使用到的套件在專案下的node_modules，並記錄在 Package.json 的 dependencies. (--save) 
+3.專案套件安裝：安裝專案使用到的套件在專案下的node_modules，並記錄在 Package.json 的 dependencies. (--save) 
 ```sh
   npm install jquery --save 
 ```
 
-4.開發環境套件安裝：安裝專案開發環境使用到的在專案下的node_modules，並記錄在 Package.json 的 devDependencies. (--save-dev)
+4.開發環境套件安裝：安裝專案開發環境使用到的在專案下的node_modules，並記錄在 Package.json 的 devDependencies. (--save-dev)
 ```sh
   npm install gulp-uglify --save-dev 
 ```
->gulp-uglify 是一個壓縮JS的工具套件，像這類的套件只會用在開發環境，通常歸類在devDependencies.    
+>gulp-uglify 是一個壓縮JS的工具套件，像這類的套件只會用在開發環境，通常歸類在devDependencies.    
 
 ### III.Demo的Package.json介紹:  
 這邊可以看到如果有使用加--save指令的話，安裝套件的版本和分類就會被記錄在 Package.json 裡，這邊我們看到gulp也被記錄在 devDependencies ，而這個 gulp 是用 --save-dev 安裝的，因為我們在撰寫gulp的task時也會用到gulp,所以也必須在專案下載安裝一次.
