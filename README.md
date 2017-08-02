@@ -198,7 +198,7 @@ npm是一個套件管理的工具，用管理專案下所使用的套件與開�
 - gulp-concat：合併檔案.  
 - gulp-uglify：壓縮醜化js檔案.  
 - dep-linker：會抓package.json的dependencies，到node_modules尋找，然後複製到某個資料夾.  
-- gulp-compass：sass 編譯成 css. PS:系統安裝Ruby、Sass、Compass，請自行google.
+- gulp-compass：sass 編譯成 css. PS:系統需安裝Ruby、Sass、Compass，請自行google.
 - gulp-autoprefixer：對css檔案裡的屬性，自動加前綴.
 - fs-extra：可以做一些檔案的處理.  
 - gulp-babel：es6 轉譯成 es5，需要另外安裝 babel-preset-es2015，請參考package.json.  
