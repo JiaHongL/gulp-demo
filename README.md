@@ -315,7 +315,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
 ```sh
     gulp.task('product', ['copyfile']);
 ```
-介紹： 
+介紹：   
 當專案開發完成時，要做輸出的動作，雖然這邊只做搬移的動作，但實際上可能會在做些其他動作，如：api切換等.  
 
 <br />
@@ -324,7 +324,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
 ```sh
     gulp.task('default', ['webserver', 'watch']);
 ``` 
-介紹： 
+介紹：   
 終端機打 gulp 時，預設執行 webserver 和 watch 這兩個task.
 
 <br />
