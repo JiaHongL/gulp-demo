@@ -307,7 +307,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
 ```
 介紹：    
 這是一個輸出專案到 dist資料夾 的task，首先我們會先把原本的 dist資料夾 移除，然後進行 Html、Js、Css 檔案 和 assets資料夾 的搬移動作，最後輸出到dist資料夾.  
-> assets資料夾通常是放些 images 、 js plugins 、 css framework 等檔案.  
+> assets資料夾通常是放些 images 、 js plugins 、 css版型 等檔案.  
 
 <br />
 
