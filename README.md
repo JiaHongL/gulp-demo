@@ -203,6 +203,8 @@ npm是一種套件管理的工具，用來管理專案下所使用的套件與�
 - fs-extra：可以做一些檔案的處理.  
 - gulp-babel：es6 轉譯成 es5，需要另外安裝 babel-preset-es2015，請參考package.json.  
 
+![alt text](https://2.bp.blogspot.com/-gNW2Nr3zON8/WYNORWV6xEI/AAAAAAAAAyM/s84vDXzqn5Q-p4NECbnecSPkLB8uxVzFQCLcBGAs/s640/%25E8%259E%25A2%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-08-04%2B%25E4%25B8%258A%25E5%258D%258812.23.41.png"選擇性的標題")
+
 <br />
 
 #### II. webserver task  
