@@ -32,19 +32,45 @@ npm是一種套件管理的工具，用來管理專案下所使用的套件與�
 ```sh
   npm install jquery --save 
 ```
-
-4.開發環境套件安裝：安裝開發環境使用的套件到專案下的node_modules，並記錄在 package.json 的 devDependencies. (--save-dev)
+```sh
+  npm install jquery        (npm5.0以上 預設--save)  
+```
+4.開發環境套件安裝：安裝開發環境使用的套件到專案下的node_modules，並記錄在 package.json 的 devDependencies. (--save-dev = -D)
 ```sh
   npm install gulp-uglify --save-dev 
 ```
->gulp-uglify 是一個壓縮醜化JS的工具套件，像這類的套件只會用在開發環境，通常歸類在devDependencies.    
+```sh
+  npm install gulp-uglify -D
+```
+>gulp-uglify 是一個壓縮醜化JS的工具套件，像這類的套件只會用在開發環境，通常歸類在devDependencies. 
 
+>ps:如果是使用5.0以上版本的npm(預設--save)，除非使用--no-save，不然--save可以省略不寫，但要注意紀錄或移除 devDependencies 並不能這樣寫 npm install gulp-uglify -dev，應該要 npm install gulp-uglify -D 和 npm uninstall gulp-uglify -D.
+- [npm 官方文件(install)](https://docs.npmjs.com/cli/install) 
+- [npm 官方文件(uninstall)](https://docs.npmjs.com/cli/uninstall)   
 <br />
 
 #### III.Demo的Package.json介紹:  
+1.使用全域的gulp跑指令(-g):  
 如下圖可以看到如果有使用加--save指令的話，安裝套件的版本和分類就會被記錄在 Package.json 裡，這邊我們看到gulp也被記錄在 devDependencies ，而這個 gulp 是用 --save-dev 安裝的，因為我們在撰寫gulp的gulpfile.js時，也會用到gulp相關的api，所以也必須在專案下載安裝一次.
 
 ![alt text](https://4.bp.blogspot.com/-YSlpOp5LHSA/WYNGGgxfJ7I/AAAAAAAAAxw/SndTNObtxEEYmSprifUaDHLoo8yjGylGgCLcBGAs/s640/%25E8%259E%25A2%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-08-03%2B%25E4%25B8%258B%25E5%258D%258811.44.10.png "選擇性的標題")
+
+2.使用專案的gulp跑指令(devDependencies)：建議先看完gulp的部分，再回頭看這部分.      
+&emsp;2.1：撰寫npm package.json的scripts  
+```sh
+  "scripts": {
+    "gulp": "gulp",
+    "build": "gulp product"
+  }
+```
+&emsp;2.2：使用 npm scripts 跑 gulp 的task：(執行 npm run gulp task 等同於 gulp task 的意思)  
+```sh
+    npm run gulp product
+```  
+&emsp;2.3：使用 npm 跑 自訂的scripts：(跟2.2一樣結果，但能更簡潔的打npm scripts來跑一個gulp task)    
+```sh
+    npm run build 
+``` 
 
 <br />
 
@@ -91,7 +117,9 @@ npm是一種套件管理的工具，用來管理專案下所使用的套件與�
 ```sh
   npm uninstall gulp-uglify --save-dev 
 ```
-
+```sh
+  npm uninstall gulp-uglify -D 
+```
 3.移除全域下 node_modules 裡的 gulp.
 ```sh
   npm uninstall gulp -g

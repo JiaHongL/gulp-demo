@@ -62,6 +62,7 @@ gulp.task('watch', () => {
 gulp.task('copyfile', () => {
   // remove dist folder
   fse.remove('./dist').then(() => {
+    console.log('remove!');
     // output html
     gulp.src('src/*.html').pipe(gulp.dest('dist/'));
     // output js
