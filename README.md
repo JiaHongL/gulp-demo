@@ -79,7 +79,7 @@ npm是一種套件管理的工具，用來管理專案下所使用的套件與�
 ##### Q：安裝完套件後，要怎麼引入到html呢？  
 ##### A：這邊有三種方式  
 1.自己手動從 node_modules 裡面搬出來，放在專案的某個資料夾.  
-2.使用工具把 dependencies 紀錄的套件從 node_modules 搬出來，放在專案某個資料夾，如稍後demo中會用到的 deLinker，這類工具套件.    
+2.使用工具把 dependencies 紀錄的套件從 node_modules 搬出來，放在專案某個資料夾，如稍後demo中會用到的 deLinker，這類工具套件.  
 3.使用某cli 如 Angular Cli 或 使用 Webpack ， 只要做些配置它就會自己去 node_modules 尋找套件，然後幫忙做引入.    
 > node_modules只是下載放置套件的地方，上線時會過濾，並不會一起上傳，所以才會有以上三種方式做處理，如有使用git的話，通常都會新增一個.gitinore檔，來過濾上傳的檔案.    
 - [各式.gitinore create 參考](https://www.gitignore.io/)  
@@ -148,6 +148,11 @@ npm是一種套件管理的工具，用來管理專案下所使用的套件與�
     }
   }
 ```
+
+<br />
+
+##### Q：不是有個yarn比npm更快更簡潔更潮嗎，為何不改用yarn?
+##### A：因為yarn在Mac較沒什麼問題，但在Windows好像還不太友善，有時候反而還需要解決其它問題，尤其當專案是多人開發時，不可能大家都是使用Mac開發，而npm 5.0版其實也快了不少了，所以還是保險起見用npm比較穩定.   
 
 <br />
 <br />
