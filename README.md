@@ -302,7 +302,7 @@ webserver 執行的路徑、跑的port、自動刷新...等設定.
         return depLinker.linkDependenciesTo('src/assets/plugins');
     });
 ```
-介紹：  
+介紹：  
 這邊會去抓 package.json 裡的 dependencies，然後去 node_modules 尋找套件，最後再輸出到 'src/assets/plugins' .  
 
 <br />
